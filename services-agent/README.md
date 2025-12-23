@@ -3,7 +3,7 @@
 
 ## 🛠 开发环境运行
 ```bash
-cd client-agent
+cd services-agent
 go run main.go
 ```
 
@@ -23,7 +23,7 @@ Agent 启动后默认监听 127.0.0.1:18888，提供以下接口：
 
 ## 📦 打包分发
 
-项目支持按平台构建及自动 ZIP 压缩。脚本位于 client-agent/build/build.sh。
+项目支持按平台构建及自动 ZIP 压缩。脚本位于 services-agent/build/build.sh。
 
 ```bash
 # 构建所有平台 (Windows, macOS, Linux)
